@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<style>
+			body {
+   				 margin: 0;
+   				 padding: 0;
+   				 width:100%;
+   				 height: 100%;
+				 background-image:url("http://s4.favim.com/orig/48/background-triangles-arrows-Favim.com-463856.jpg");
+
+				}
+			
+			#header{
+				/*background-color:  #4d4dff;*/
+				opacity: 1.;
+				width:100%;
+				margin:0px 0px;
+				height:150px;
+				padding:0px;
+				float:top;
+				background-image:url("http://25.media.tumblr.com/tumblr_m3tjxjsWcu1qcbpsqo7_r1_1280.png");
+				box-shadow:0px 0px 20px black;
+				background-repeat: no-repeat;
+				background-origin: content-box;
+				background-position: 100% 30%;
+				background-size: cover;
+				text-align: center;
+				}
+			#header > h1{
+				padding-top: 25px;
+				font-family: cursive;
+				font-size: 40px;
+			}
+			#header > p{
+				color: grey;
+
+			}
+
+			#container {
+				top:3px;
+				margin-left:20px;
+				position:relative;
+				}
+
+			#container > div{
+				display:inline;
+				background-color:#b30047;
+				font-size:30px;
+				border:1px solid #b30047;
+				border-bottom-right-radius:5px;
+				border-bottom-left-radius:5px;
+				height:30px;
+				-webkit-transition: width 2s,height 2s;
+				transition: width 2s,height 2s;
+				box-shadow:0px 5px 20px black;
+				margin-right:10px;
+				padding:2.4px;
+				position:relative;
+				font-size:20;
+				opacity:0.8;
+				}
+			#container > div > a{
+					color:#d9d9d9;
+		    			font-family:Arial;
+					font-size:20;
+				}
+			#container > div > a:hover {
+				width:50px;
+				height:50px;
+				padding:4px;
+				background-color:black;
+				color:#d9d9d9;
+				opacity:0.8;
+				box-shadow:0px 2px 5px white;
+				}
+
+			a{
+				text-decoration:none;
+				-webkit-transition: width 2s,height 2s;
+				transition: width 2s,height 2s;
+			}
+			
+			td{
+				
+			}
+			
+			#content{
+				position:relative;
+				margin-bottom:300px;
+			}
+
+			h1{
+				text-shadow:0px 0px 5px white, 0px 0px 20px  #99ffff ,0px 10px 6px black;;
+			}
+
+			
+
+			#type2{
+				position:relative;
+				top:200px;
+				left:123px;
+				width:1000px;
+				float:auto;
+				border-collapse:collapse;
+
+			}
+			#type1{
+				position:relative;
+				top:200px;
+				left:123px;
+				float:auto;
+				width:1000px;
+				border-collapse:collapse;
+			}
+
+
+			img{
+				width:250px;
+				height:350px;
+				box-shadow: 0px 0px 11px black;
+				-webkit-transition:width 1s,height 1s;
+				transition:width 1s,height 1s;
+			}
+			
+			img:hover{
+				width:300px;
+				height:400px;
+			}
+
+			#sidebar>div{
+				padding:15px;
+				
+				float:right;
+				display:block;
+				font-size:40px;
+				background-color:white;
+			}
+			#sidebar  div div{
+				display:inline;
+			} 
+			#sidebaar div div a img{
+				float:right;
+				border-radius:10px;
+			}
+			#i1{
+				width:40px;
+				height:40px;
+			}
+			#i2{
+				width:40px;
+				height:40px;
+
+			}
+			#i3{
+				width:40px;
+				height:40px;
+
+			}
+			#s1{
+				width:70px;
+				height:30px;
+				border:black;
+				border-radius:5px;
+				background-color:black;
+				/*box-shadow:0px 5px 20px black;*/
+				
+			}
+			#search{
+				transition:.55s ease;
+			}
+			#search:hover{
+				box-shadow:2px 2px 5px white;
+			}
+			#search input#s1{
+				font-size:23px;
+				-webkit-transition: width .55s ease;
+ 				 -moz-transition: width .55s ease;
+ 				 -ms-transition: width .55s ease;
+  					-o-transition: width .55s ease;
+  					transition: width .55s ease;
+				color:grey;
+			}
+			#search input#s1::-webkit-input-placeholder {
+  				color: pink;
+			}
+
+			#search input#s1::-moz-placeholder {
+  				/* Firefox 18- */
+  				color: pink;
+			}
+
+			#search input#s1::-moz-placeholder {
+  				/* Firefox 19+ */
+  				color: pink;
+			}
+
+			#search input#s1:-ms-input-placeholder {
+  				color: pink;
+			}
+			#search input#s1:focus, #search input#s1:active{
+  				outline:none;
+  				width: 300px;
+				
+
+			}
+
+			#search input#s1:hover{
+				width: 300px;.
+				box-shadow:0px 2px 5px white;
+			}
+			
+			#b{
+  				
+  				/*overflow:hidden;*/
+				
+				
+			}
+			#a{
+				background-color:black;
+				width:1265px;
+				height:460px;
+				top:105px ;
+  				left:0px;
+				position:relative;
+				box-shadow:0px 0px 20px black;
+				
+			}
+
+			#a img {
+  				width: 1215px;
+  				height: 460px;
+				border-radius:3px;
+				
+			}
+
+			.a1 {
+  				position:absolute;
+  				top:10px ;
+  				left:20px;
+  				z-index:0;
+  				animation:all 6s linear infinite;
+			}
+			.a2{
+  				position:absolute;
+  				top:10px ;
+  				left:20px;
+  				z-index:1;
+  				animation:all1 6s linear infinite;
+			}
+			.a3{
+  				position:absolute;
+  				top:10px ;
+  				left:20px;
+  				z-index:2;
+  				animation:all2 6s linear infinite;
+			}
+			.a4{
+  				position:absolute;
+  				top:40px ;
+  				left:40px;
+  				z-index:3;
+			}
+			@keyframes all{
+  				0%{
+    					opacity:1;
+    					z-index:3;
+  					}
+  				20%{
+    					opacity:1;
+    					z-index:3;
+  				}
+  				40%{
+    					opacity:0.5;
+    					z-index:1;
+  				}
+  				60%{
+    					opacity:0.5;
+    					z-index:1;
+  				}
+  				80%{
+    					opacity:0;
+    					z-index:0;
+  				}
+  				100%{
+    					opacity:0;
+    					z-index:0;
+  				}
+			}
+			@keyframes all1{
+  				0%{
+    					opacity:0.5;
+    					z-index:1;
+  				}
+  				20%{
+    					opacity:0.5;
+    					z-index:1;
+  				}
+  				40%{
+    					opacity:1;
+    					z-index:3;
+  				}
+  				60%{
+    					opacity:1;
+    					z-index:3;
+  				}
+  				80%{
+    					opacity:0.5;
+    					z-index:1;
+  				}
+  				100%{
+    					opacity:0;
+    					z-index:1;
+  				}
+			}
+			@keyframes all2{
+  				0%{
+    					opacity:0;
+    					z-index:0;
+  				}
+  				20%{
+    					opacity:0;
+    					z-index:1;
+  				}
+  				40%{
+    					opacity:0;
+    					z-index:1;
+  				}
+  				60%{
+    					opacity:0;
+    					z-index:1;
+  				}
+  				80%{
+    					opacity:1;
+    					z-index:3;
+  				}
+  				100%{
+    					opacity:1;
+    					z-index:3;
+  				}
+			}
+
+			#black{
+				
+			}
+
+			.toggle-box {
+  				display: none;
+			}
+
+			.toggle-box + label {
+  				display: block;
+  				font-weight: bold;
+  				line-height: 21px;
+  				margin-bottom: 5px;
+  				border-radius:5px;
+				border-bottom:5px solid #8e3656;
+  				position:relative;
+				top:200px;
+				left:120px;
+				float:auto;
+				width:1000px;
+				background-color:#99bbff;
+				opacity:0.8;
+				padding:10px;
+				font-size:24px;
+				text-align:center;
+				margin-bottom:10px;
+				transition:0.5s ease;
+			}
+			
+			.toggle-box:hover + label:hover{
+				box-shadow:0px 0px 10px white;
+				background-color:#8e3656;
+				color:#d9d9d9;
+				opacity:0.9;
+				
+			}
+
+			.toggle-box + label + div {
+  				display: none;
+  				margin-bottom: 10px;
+  
+			}
+
+			.toggle-box:checked + label + div {
+  				display: block;
+			}
+
+			.toggle-box + label:before {
+  				background-color: #4F5150;
+  				//-webkit-border-radius: 10px;
+  				//-moz-border-radius: 10px;
+  				//border-radius: 10px;
+  				//color: #FFFFFF;
+  				//content: "";
+  				display: block;
+  				float: left;
+  				font-weight: bold;
+  				height: 20px;
+  				line-height: 20px;
+  				margin-right: 5px;
+  				text-align: center;
+  				width: 20px;
+			}
+
+			.toggle-box:checked + label:before {
+  				//content: "";
+			}
+			
+			#footer{
+				bottom:0px;
+				position:relative;
+			}
+
+			.toggle-box1 {
+  				display: none;
+			}
+
+			.toggle-box1 + label {
+  				display: block;
+  				font-weight: bold;
+  				line-height: 21px;
+				border-top:5px solid #8e3656;
+  				position:relative;
+				background-color:#99bbff;
+				opacity:0.8;
+				padding:10px;
+				font-size:24px;
+				text-align:center;
+				transition:0.5s ease;
+				height:80px;
+			}
+			
+			.toggle-box1:hover + label:hover{
+				background-color:#8e3656;
+				color:#d9d9d9;
+				opacity:0.9;
+				
+			}
+
+			.toggle-box1 + label + div {
+  				display: none;
+  				  
+			}
+
+			.toggle-box1:checked + label + div {
+  				display: block;
+			}
+
+			.toggle-box1 + label:before {
+  				//background-color: #4F5150;
+  				//-webkit-border-radius: 10px;
+  				//-moz-border-radius: 10px;
+  				//border-radius: 5px;
+  				color: #FFFFFF;
+  				content: "+";
+  				display: inline;
+    				font-weight: bold;
+  				height:50px;
+  				line-height: 50px;
+  				margin-right:5px;
+  				text-align: center;
+  				width: 20px;
+				
+			}
+
+			.toggle-box1:checked + label:before {
+  				content: "-";
+			}
+			
+
+		</style>
+	</head>
+	<body>
+		
+			<div class="section">
+			<div id="header">
+				<h1><em><strong>FashionForFun</strong></em></h1>
+				<p>Live your life with style!!<p>
+			</div>
+			</div>
+			<div id="container"> 
+				<div><a href="#">Home</a></div>
+				<div><a href="#">About</a></div>
+				<div><a href="#">Contests</a></div>
+				<div><a href="#">Log In</a></div>
+				<div><a href="#">Sign Up</a></div>			
+				<div id="search"><input type="search" id="s1" placeholder="Search" /></div>
+			</div>
+			<div id="sidebar"> 
+						<div>
+						<div><a href="#"><img id="i1" src="http://www.univ-orleans.fr/sites/default/files/Universit%C3%A9/images/twitter_circle_color-512.png" /><a></div>
+						<div><a href="#"><img id="i2" src="http://2.bp.blogspot.com/-tvmgENfHanM/U-kriCleTNI/AAAAAAAABvs/Yb5VeHaIgPU/s1600/facebook+logo+vector.png"/><a></div>
+						<div><a href="#"><img id="i3" src="http://sourcecodepeople.cabanova.com/files/hq5o-61izzr5kf418-lyyuo.gif" /><a></div>
+						</div>			
+			</div>
+		
+			<div id="b">
+				<div id="a">
+  					<a class="a1" href=#><img src="http://photoandgrime.com/wp-content/uploads/2014/01/Posing-for-photography-modeling-poses-fashion-03.jpg" /></a>
+  					<a class="a2" href=#><img src="http://blog.onemodelplace.com/wp-content/uploads/2015/06/STOCK4.jpg" /></a>
+  					<a class="a3" href=#><img src="http://www.victoriasmodels.com.au/wp-content/uploads/2015/05/victorias-models-canberra-fashion-model-photo-shoot-1024x683.jpg" /></a>
+  					<!-- a class="a4" href=""><img src="http://www.mrwallpaper.com/wallpapers/guns-anime-girl.jpg" /></a> -->
+				</div>
+			</div>
+			
+			<div id="content"> 
+				<input class="toggle-box" id="identifier-1" type="checkbox" >
+				<label for="identifier-1">~:Fashion Categories:~</label>
+				<div>
+					<table id="type1">	
+					<tr>
+						<td><!--bohemina--><a href="#"><img src="http://fashiongum.com/wp-content/uploads/2015/04/Womens-Boho-Bohemian-Chic-Styles-2015-6.jpg" /></a></td>
+						<td><!--chic--><a href="#"><img src="http://i1.wp.com/visual-therapy.com/blog/wp-content/uploads/2014/11/charlotte-casiraghi-gucci.jpg?resize=265%2C397" /></a></td>
+						<td><!--glamorous--><a href="#"><img src="http://www.mtv.com/news/wp-content/uploads/style/2013/07/demi-lovato-fashion-canada-2.jpg" /></a></td>
+						<td><!--romantic--><a href="#"><img src="http://www.chicreadings.com/wp-content/uploads/2014/10/111.jpg" /></a></td>
+					</tr>
+					<tr>
+						<td><!--classic--><a href="#"><img src="http://theglamoroushousewife.com/wp-content/uploads/2015/05/marilyn-monroe-fashion-1.jpg" /></a></td>
+						<td><!--sophisticated--><a href="#"><img src="http://data.whicdn.com/images/153454907/large.jpg" /></a></td>
+						<td><!--western--><a href="#"><img src="http://dresstokillmagazine.com/wp-content/uploads/2014/12/www-05.jpg" /></a></td>
+						<td><!--preppy--><a href="#"><img src="http://thestylespy.com/wp/wp-content/uploads/Header-Copy.jpg" /></a></td>
+					</tr>
+					<tr>
+						<td><!--tomboy--><a href="#"><img src="http://thebestfashionblog.com/wp-content/uploads/2013/08/Mango-Fall-Winter-2013-2014-6.jpg" /></a></td>
+						<td><!--punk--><a href="#"><img src="https://s-media-cache-ak0.pinimg.com/564x/42/95/55/429555389796d66f51f6f4b9c5cb2c99.jpg" /></a></td>
+						<td><!--rocker--><a href="#"><img src="https://s-media-cache-ak0.pinimg.com/564x/c7/3e/49/c73e49c1c366373994a6e1f72db47df6.jpg" /></a></td>
+						<td><!--sexy--><a href="#"><img src="http://g02.a.alicdn.com/kf/HTB14bXWHVXXXXaiXpXXq6xXFXXXx/Today-s-new-2015-fashion-style-pink-super-sexy-low-cut-V-neck-harness-dress-Slim.jpg" /></a></td>
+					</tr>
+					<tr>
+						<td><!--exotic--><a href="#"><img src="http://images.fashionnstyle.com/data/images/full/22038/kristen-wiig.jpg?w=600" /></td>
+						<td><!--artsy--><a href="#"><img src="https://s-media-cache-ak0.pinimg.com/236x/8f/03/e0/8f03e03bd2c48112699423737e561749.jpg" /> </a></td>
+						<td><!--flambount--><a href="#"><img src="http://www.chapterfifty.com/wp-content/uploads/2015/10/DRI03832.jpg" /></a></td>
+						<td><!--gothic--><a href="#"><img src="http://1.bp.blogspot.com/-X8Gnn5-wXd4/Uxvbo2bL6VI/AAAAAAAAC1w/evtnlPB4Pug/s1600/131726-goth-style-victorian-goth+-+Copy.jpg" /></a></td>
+					</tr>
+					</table>
+				</div>
+			</input>
+			<input class="toggle-box" id="identifier-2" type="checkbox" >
+				<label for="identifier-2">~:Clothing Categories:~</label>
+				<div>	
+				<table id="type2">
+						<td>dress<a href="#"><img src="http://machopicture.com/images/summer-dresses/4357-7971-short-mini-dresses-for-women-4.jpg" /></td>
+						<td>gown<a href="#"><img src="http://outfit4girls.com/wp-content/uploads/2015/03/net-cinderella-frock-dress.jpg" /></td>
+						<td>tops<a href="#"><img src="http://g02.a.alicdn.com/kf/HTB1ZSNwIFXXXXaEXFXXq6xXFXXXV/2015-free-shipping-Factory-price-of-Long-Sleeve-Korean-font-b-Stylish-b-font-Spliced-T.jpg" /></td>
+						<td>shirt<a href="#"><img src="http://img.alibaba.com/img/pb/975/016/609/609016975_751.jpg" /></td>
+					</tr>
+					<tr>
+						<td>poncho<a href="#"><img src="http://shopcarmelita.com/wp-content/themes/shopperpress/thumbs/TigerPrintPonchodress.jpg" /></td> </a>
+						<td>jackets<a href="#"><img src="https://viparofashiononline.files.wordpress.com/2013/06/leather-jackets-for-women.jpg?w=490&h=805" /></td></a>
+						<td>saree<a href="#"><img src="http://www.indiabazaaronline.com/product_images/e/428/cream-net-red-satin-pallu-half-and-half-designer-saree-with-blouse-js270132__07125_zoom.jpg" /></td></a>
+						<td>skirt<a href="#"><img src="http://i01.i.aliimg.com/wsphoto/v0/1145957137/lace-tiered-mini-skirt-club-wear-short-lace-skirts-chiffon-fashionable-woman-skirt-2013-sexy-black.jpg" /></td></a>
+					</tr>
+					<tr>
+						<td>shorts<a href="#"><img src="https://s-media-cache-ak0.pinimg.com/736x/84/07/5f/84075f09d264c239a33df08ee7ac71ea.jpg" /></td></a>
+						<td>jumpsuits<a href="#"><img src="http://i01.i.aliimg.com/wsphoto/v0/857072519_1/YM121-women-2013-summer-autumn-fashion-jumpsuit-black-white-elastic-elegant-overalls-long-harem-pants-jumpsuit.jpg" /></td></a>
+						<td>suspenders<a href="#"><img src="http://image.dhgate.com/aktdesc_843948727_00.jpg" /></td></a>
+						<td>trousers<a href="#"><img src="http://nastiashop.com/wp-content/uploads/2015/04/2015-Women-s-Pants-Plaid-Polyester-Business-Formal-Pants-Full-Long-Trousers-For-Office-Work-Wear3.jpg" /></td></a>
+					</tr>
+					<tr>
+						<td>jeans<a href="#"><img src="http://bibayan.com/wp-content/uploads/2014/03/D%C3%BC%C5%9F%C3%BCk-Bel-Y%C4%B1rt%C4%B1k-Kot-Modeli.jpg" /></td></a>
+						<td>formal suit<a href="#"><img src="https://s-media-cache-ak0.pinimg.com/736x/14/49/3a/14493a54254bb5593bd45984a689b50b.jpg" /></td></a>
+						<td>salwar<a href="#"><img src="http://www.galstyles.com/wp-content/uploads/2014/11/New-Indian-Kalidar-Suits-Salwar-Kameez-Dresses-Collection-for-Girls-2014-2015-27.jpg" /></td></a>
+						<td>wedding dress<a href="#"><img src="http://www.2016weddingdress.com/img/Short-wedding-dress-summer---6.jpg" /></td></a>
+					</tr>
+					<tr>
+						<td>indian wedding dress<a href="#"><img src="http://www.womenclub.pk/wp-content/uploads/2015/12/Best-Traditional-Indian-Wedding-Dresses-For-Bride12.jpg" /></td></a>
+						<td>sports<a href="#"><img src="http://g04.s.alicdn.com/kf/HTB1ybY_FXXXXXbicFXXq6xXFXXXk/206124708/HTB1ybY_FXXXXXbicFXXq6xXFXXXk.jpg" /></td></a>
+						<td>swimsuits<a href="#"><img src="http://1.bp.blogspot.com/-DKoHJ2d0LdM/VoqMXnpEfMI/AAAAAAAAMb4/5LLHSxwkEYg/s1600/josephine-skriver-victorias-secret-bikini-models-02.jpg" /></td></a>
+						<td>lingerie<a href="#"><img src="http://fortheloveoflingerie.com/wp-content/uploads/2015/05/Caress_Boudoir_Bra_and_Brief_FRONT_Fleur_of_England_crop.jpg" /></td></a>
+					</tr>
+					<!-- <tr>
+						<td>21<img src="" /></td>
+						<td>22<img src="" /></td>
+						<td>23<img src="" /></td>
+						<td>24<img src="" /></td>
+					</tr>
+					<tr>
+						<td>17<img src="" /></td>
+						<td>18<img src="" /></td>
+						<td>19<img src="" /></td>
+						<td>20<img src="" /></td>
+					</tr>
+					<tr>
+						<td>21<img src="" /></td>
+						<td>22<img src="" /></td>
+						<td>23<img src="" /></td>
+						<td>24<img src="" /></td>
+					</tr> -->
+				</table>
+				</div>
+			</input>
+			</div>
+			<div id="footer"> 
+				<input class="toggle-box1" id="identifier-3" type="checkbox" >
+				<label for="identifier-3">Learn More</label>
+				<div>
+					<p>contact us </p>
+				</div>
+				</input>
+
+			</div>
+
+              
+  
+		</div>
+	</body>
+</html>
